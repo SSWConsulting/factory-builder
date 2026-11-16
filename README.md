@@ -75,6 +75,10 @@ Run these commands inside Claude Code:
 /software-factory:build-software-factory Add CSV export to the reports page
 ```
 
+### Using Claude on the web?
+
+**Recommended: [download the Claude desktop app](https://claude.ai/download) and use Claude Code with a local project**, then run the Claude Code commands above. As with ChatGPT on the web, a web chat cannot reach your local repository files or run the local Python helpers the factory needs. Pasting a GitHub URL into a web chat does not by itself install this plugin on your computer, and a response saying the repository was inspected or packaged is not an installation confirmation. After installing, start a new Claude Code session in the target repository and confirm that `/software-factory:build-software-factory` is available.
+
 ### Using the generated factory
 
 For a newly generated factory, load `.software-factory/.claude/skills/` using your harness, then invoke `factory-run` for an advisory plan. An older factory may not have Run: first use `scaffold.py --check <factory>` and follow the [reviewed manual adoption guide](skills/build-software-factory/references/running.md#existing-factories) if advised. A plugin update alone does not add missing factory contracts. For example, from the project root in Claude Code:

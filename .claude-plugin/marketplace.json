@@ -1,7 +1,7 @@
 {
   "name": "software-factory-plugins",
   "description": "A distribution catalog for the Software Factory plugin.",
-  "owner": {"name": "calumjs"},
+  "owner": {"name": "SSWConsulting"},
   "plugins": [
     {
       "name": "software-factory",

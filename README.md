@@ -1,6 +1,6 @@
 # Software Factory plugin
 
-A Claude Code plugin that builds a project-specific AI delivery factory: it interviews you, researches current practices for your stack, and scaffolds a governed loop of seven skills into your repository.
+An AI Agent plugin that builds a project-specific AI delivery factory: it interviews you, researches current practices for your stack, and scaffolds a governed loop of seven skills into your repository.
 
 A factory uses Intake → Plan → Build → Verify → Release → Learn. The optional Run skill prepares an advisory pass plan; work and scheduling need separately authorized, verified coordination.
 
@@ -18,7 +18,7 @@ One generated directory, `<project>/.software-factory/`, containing the seven `f
 ## Quick start
 
 ```text
-/plugin marketplace add calumjs/factory-builder
+/plugin marketplace add SSWConsulting/factory-builder
 /plugin install software-factory@software-factory-plugins
 /software-factory:build-software-factory Add CSV export to the reports page
 ```

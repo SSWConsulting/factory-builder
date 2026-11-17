@@ -1,6 +1,6 @@
 # Scaffold mechanics
 
-Requires Python 3.9+ and its standard library. No dependencies, network calls or paid services are performed by the helpers. The package may live anywhere readable.
+Requires Python 3.9+ and its standard library. No dependencies, network calls or paid services are performed by the helpers. The package may live anywhere readable. If no interpreter is available, follow [python-prerequisite.md](python-prerequisite.md) before scaffolding.
 
 New task configurations use the [canonical status vocabulary](task-status.md).
 Unknown values fail before rendering or applying a factory; existing living

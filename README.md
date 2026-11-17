@@ -98,7 +98,7 @@ This is an explicit file-based request, not a claim that `/factory-run` is regis
 
 ### Prerequisites and offline checks
 
-Installation follows the repository's current access requirements; use Git authentication when required. For a session-only preview without installing: `claude --plugin-dir /path/to/factory-builder`. Helpers need Python 3.9+ and only the standard library; see the [scaffolding guide](skills/build-software-factory/references/scaffolding.md) for Windows interpreter selection.
+Installation follows the repository's current access requirements; use Git authentication when required. For a session-only preview without installing: `claude --plugin-dir /path/to/factory-builder`. Helpers need Python 3.9+ and only the standard library; see the [scaffolding guide](skills/build-software-factory/references/scaffolding.md) for Windows interpreter selection. Setup checks for Python before the interview. If it is missing, the [Python prerequisite guide](skills/build-software-factory/references/python-prerequisite.md) offers install options, installs only with your approval, and describes an instructions-only lite option for machines where Python cannot be installed.
 
 To run this plugin's offline tests from its checkout, use `python3 run_tests.py`
 (or `py -3 run_tests.py` on Windows). The runner locates the suite relative to
